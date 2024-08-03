@@ -5,10 +5,6 @@
     {
       "type": "vcs",
       "url": "git@github.com:richardpayment/payment.git"
-    },
-    {
-      "type": "composer",
-      "url": "https://packagist.org"
     }
   ],
   "archive": {
@@ -21,6 +17,6 @@
     "richard/payment": "dev-master"
   },
   "require-all": false,
-  "require-dependencies": true,
+  "require-dependencies": false,
   "require-dev-dependencies": false
 }
