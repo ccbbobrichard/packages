@@ -6,6 +6,6 @@ secret:
 
 satis:
   php: /www/server/php/82/bin/php
-  bin: /satis/bin/satis
-  config: /satis.json
-  output: /composer
+  bin: ./satis/bin/satis
+  config: ./satis.json
+  output: ./composer
