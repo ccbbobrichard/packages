@@ -18,23 +18,7 @@
     "prefix-url": "http://composer.phelotto.com"
   },
   "require": {
-    "bacon/bacon-qr-code": "^3.0",
-    "dcat/easy-excel": "^1.1",
-    "dcat/laravel-admin": "2.*",
-    "genealabs/laravel-model-caching": "^0.12.5",
-    "ghost/dcat-config": "^1.0",
-    "guzzlehttp/guzzle": "^7.2",
-    "jiaxincui/closure-table": "^2.1",
-    "laravel/framework": "^9.19",
-    "laravel/sanctum": "^3.0",
-    "laravel/tinker": "^2.7",
-    "mews/captcha": "^3.3",
-    "mews/purifier": "^3.4",
-    "pragmarx/google2fa-qrcode": "^2.0|^3.0",
-    "sentry/sentry-laravel": "^4.4",
-    "spatie/laravel-csp": "^2.8",
-    "richard/payment": "dev-master",
-    "weiaibaicai/dcat-operation-log": "^2.0"
+    "richard/payment": "dev-master"
   },
   "require-all": false,
   "require-dependencies": true,
