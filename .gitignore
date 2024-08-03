@@ -2,3 +2,5 @@
 /.idea
 /satis
 /dist
+/vendor
+composer.lock
