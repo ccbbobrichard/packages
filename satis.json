@@ -5,6 +5,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:richardpayment/payment.git"
+    },
+    {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
     }
   ],
   "archive": {
@@ -13,7 +17,7 @@
     "skip-dev": false,
     "prefix-url": "http://composer.phelotto.com"
   },
-  "require":{
+  "require": {
     "bacon/bacon-qr-code": "^3.0",
     "dcat/easy-excel": "^1.1",
     "dcat/laravel-admin": "2.*",
