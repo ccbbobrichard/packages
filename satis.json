@@ -8,10 +8,6 @@
     },
     {
       "type": "composer",
-      "url": "https://packagist.laravel-china.org"
-    },
-    {
-      "type": "composer",
       "url": "https://packagist.org"
     }
   ],
