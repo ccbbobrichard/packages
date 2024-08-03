@@ -2,7 +2,14 @@
   "name": "richard/repository",
   "homepage": "http://composer.phelotto.com",
   "repositories": [
-    {"type": "git", "url": "git@github.com:richardpayment/payment.git"}
+    {
+      "type": "git",
+      "url": "git@github.com:richardpayment/payment.git"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.org/"
+    }
   ],
   "require-all": true,
   "require-dependencies": true,

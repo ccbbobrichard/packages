@@ -1,1 +1,3 @@
-Creating a "composer/satis" project at "./satis"
+composer create-project composer/satis --stability=dev --keep-vcs
+
+php satis/bin/satis build satis.json dist
