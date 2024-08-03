@@ -5,7 +5,7 @@ secret:
   name: key # secret parameter name
 
 satis:
-  php: /usr/bin/php
+  php: /www/server/php/82/bin
   bin: ../satis/bin/satis
   config: ../satis.json
   output: ../composer
