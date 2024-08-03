@@ -3,7 +3,7 @@
   "homepage": "http://composer.phelotto.com",
   "repositories": [
     {
-      "type": "git",
+      "type": "vcs",
       "url": "git@github.com:richardpayment/payment.git"
     },
     {
@@ -11,6 +11,7 @@
       "url": "https://packagist.org/"
     }
   ],
+<<<<<<< HEAD
   "archive": {
     "directory": "dist",
     "format": "tar",
@@ -37,7 +38,10 @@
     "richard/payment": "dev-master",
     "weiaibaicai/dcat-operation-log": "^2.0"
   },
+  "require-all": false,
+=======
   "require-all": true,
+>>>>>>> parent of 5265de4 (12)
   "require-dependencies": true,
-  "require-dev-dependencies": true
+  "require-dev-dependencies": false
 }
