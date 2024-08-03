@@ -1,6 +1,6 @@
 {
   "name": "richard/repository",
-  "homepage": "http://composer.phelotto.com",
+  "homepage": "https://composer.phelotto.com/composer",
   "repositories": [
     {
       "type": "vcs",
@@ -10,7 +10,7 @@
   "require": {
     "richard/payment": "dev-master"
   },
-  "require-all": false,
+  "require-all": true,
   "require-dependencies": false,
   "require-dev-dependencies": false
 }

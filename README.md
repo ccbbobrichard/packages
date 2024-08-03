@@ -1,9 +1,9 @@
 composer create-project composer/satis --stability=dev --keep-vcs
 
-php satis/bin/satis build satis.json dist/ --skip-errors
+php satis/bin/satis build satis.json composer --skip-errors
 
 
 composer config --global --auth github-oauth.github.com <token>
 
 
-php satis/bin/satis build satis.json dist/ richard/payment
+php satis/bin/satis build satis.json composer/ richard/payment
