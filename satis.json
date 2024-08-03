@@ -7,12 +7,6 @@
       "url": "git@github.com:richardpayment/payment.git"
     }
   ],
-  "archive": {
-    "directory": "dist",
-    "format": "tar",
-    "skip-dev": false,
-    "prefix-url": "http://composer.phelotto.com"
-  },
   "require": {
     "richard/payment": "dev-master"
   },
