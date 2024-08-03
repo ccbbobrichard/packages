@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "shopen-group/satis-hook": "dev-develop"
+        "richardpayment/satis-hook": "dev-main"
     }
 }
