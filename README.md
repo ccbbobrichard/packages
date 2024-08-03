@@ -1,1 +1,1 @@
-# packages
+Creating a "composer/satis" project at "./satis"

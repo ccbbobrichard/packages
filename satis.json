@@ -1,0 +1,10 @@
+{
+  "name": "richard/repository",
+  "homepage": "http://composer.phelotto.com",
+  "repositories": [
+    {"type": "git", "url": "git@github.com:richardpayment/payment.git"}
+  ],
+  "require-all": true,
+  "require-dependencies": true,
+  "require-dev-dependencies": true
+}
