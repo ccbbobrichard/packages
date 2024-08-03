@@ -38,5 +38,5 @@
   },
   "require-all": false,
   "require-dependencies": true,
-  "require-dev-dependencies": true
+  "require-dev-dependencies": false
 }
