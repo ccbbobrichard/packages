@@ -1,4 +1,11 @@
 {
+    "name": "webhook/composer",
+    "description": "webhook",
+    "authors": [
+        {
+            "name": "webhook"
+        }
+    ],
     "require": {
         "shopen-group/satis-hook": "dev-develop"
     }
