@@ -8,7 +8,11 @@
     },
     {
       "type": "composer",
-      "url": "https://mirrors.aliyun.com/composer/"
+      "url": "https://packagist.laravel-china.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.org"
     }
   ],
   "archive": {
@@ -30,7 +34,6 @@
     "laravel/tinker": "^2.7",
     "mews/captcha": "^3.3",
     "mews/purifier": "^3.4",
-    "mrbrownnl/random-nickname-generator": "^3.0",
     "pragmarx/google2fa-qrcode": "^2.0|^3.0",
     "sentry/sentry-laravel": "^4.4",
     "spatie/laravel-csp": "^2.8",
@@ -39,5 +42,5 @@
   },
   "require-all": false,
   "require-dependencies": true,
-  "require-dev-dependencies": false
+  "require-dev-dependencies": true
 }
