@@ -8,3 +8,5 @@ composer config --global --auth github-oauth.github.com <token>
 
 
 php satis/bin/satis build satis.json composer/ richard/payment
+
+composer require shopen-group/satis-hook dev-develop --ignore-platform-reqs

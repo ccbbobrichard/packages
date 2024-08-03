@@ -8,4 +8,4 @@ satis:
   php: /usr/bin/php
   bin: ../satis/bin/satis
   config: ../satis.json
-  output: ../web
+  output: ../composer

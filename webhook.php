@@ -1,3 +1,9 @@
 <?php
-$output   = shell_exec('php /www/wwwroot/composer.phelotto.com/packages/satis/bin/satis build /www/wwwroot/composer.phelotto.com/packages/satis.json /www/wwwroot/composer.phelotto.com/packages/composer/ 2>&1');
-print_r($output);
+declare(strict_types=1);
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use ShopenGroup\SatisHook\ApplicationFactory;
+
+$application = ApplicationFactory::createApplication(__DIR__ . '/config.yaml', __DIR__ . '/temp', __DIR__ . '/logs', $argc);
+$application->run();
