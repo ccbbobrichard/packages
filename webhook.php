@@ -4,8 +4,5 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use ShopenGroup\SatisHook\ApplicationFactory;
 
-echo __DIR__ . '/logs';
-exit;
-
 $application = ApplicationFactory::createApplication(__DIR__ . '/config.yaml', __DIR__ . '/temp', __DIR__ . '/logs', $argc);
 $application->run();
