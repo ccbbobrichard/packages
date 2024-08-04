@@ -1,7 +1,7 @@
 secret:
   enabled: true # secret token is enabled
   location: param # location of "secret" parameter (param|header)
-  value: veslo # secret value
+  value: 05cb41083cd9778fb0f0f4d33f8388f2 # secret value
   name: api-key # secret parameter name
 
 satis:
