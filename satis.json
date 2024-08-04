@@ -3,6 +3,7 @@
   "homepage": "https://composer.phelotto.com/composer",
   "repositories": [
     {
+      "name": "richard/payment",
       "type": "vcs",
       "url": "git@github.com:richardpayment/payment.git"
     }
