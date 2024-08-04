@@ -11,6 +11,8 @@ php satis/bin/satis build satis.json composer/ richard/payment
 
 composer require shopen-group/satis-hook dev-develop --ignore-platform-reqs
 
+The command &quot;&#x27;/www/server/php/82/bin/php&#x27; &#x27;/www/wwwroot/composer.phelotto.com/packages/./satis/bin/satis&#x27; &#x27;build&#x27; &#x27;/www/wwwroot/composer.phelotto.com/packages/./satis.json&#x27; &#x27;/www/wwwroot/composer.phelotto.com/packages/./composer&#x27; &#x27;-n&#x27;&quot; failed.
 
 
+/www/wwwroot/composer.phelotto.com/packages
 
