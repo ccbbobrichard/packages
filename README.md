@@ -14,11 +14,13 @@ composer require shopen-group/satis-hook dev-develop --ignore-platform-reqs
 /www/wwwroot/composer.phelotto.com/packages
 
 
-screen -S composer
+screen -S composer 创建绘画
 
-screen -ls
+screen -ls 绘画列表
 
-screen -r composer
+screen -r composer 查看绘画
+
+screen -S 1212121.composer(绘画Id) -X quit 删除绘画
 
 
 
