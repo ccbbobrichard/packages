@@ -23,5 +23,7 @@ screen -r composer 查看绘画
 
 screen -S 1212121.composer(绘画Id) -X quit 删除绘画
 
+composer config --global --auth github-oauth.github.com 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
+
 
 
