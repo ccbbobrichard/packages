@@ -25,7 +25,7 @@ screen -r composer 查看绘画
 
 screen -S 1212121.composer(绘画Id) -X quit 删除绘画
 
-composer config --global --auth github-oauth.github.com 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
+composer config --global --auth github-oauth.github.com 123123123
 
 ssl过期 导致推送不过去
 
