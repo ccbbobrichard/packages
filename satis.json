@@ -6,10 +6,16 @@
       "name": "richard/payment",
       "type": "vcs",
       "url": "git@github.com:richardpayment/payment.git"
+    },
+    {
+      "name": "laso/payment",
+      "type": "vcs",
+      "url": "git@github.com:richardpayment/laso.git"
     }
   ],
   "require": {
-    "richard/payment": "dev-master"
+    "richard/payment": "dev-master",
+    "laso/payment": "dev-master"
   },
   "require-all": true,
   "require-dependencies": false,
