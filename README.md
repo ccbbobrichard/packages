@@ -10,6 +10,7 @@ php satis/bin/satis build satis.json composer --skip-errors
 
 
 php satis/bin/satis build satis.json composer/ richard/payment
+php satis/bin/satis build satis.json composer/ laso/payment
 
 composer require shopen-group/satis-hook dev-develop --ignore-platform-reqs
 
